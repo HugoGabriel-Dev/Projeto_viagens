@@ -1,3 +1,17 @@
+/* variáveis */
+:root{
+
+    --background-primary-color: #ffffff;
+    --background-secundary-color: #F5F5F5;
+    --background-tertiary-color: #000000;
+    
+    --button-primary-color:#B81515;
+    --button-secundary-color:#8F0101;
+
+    --text-primary-color:#222222;
+    --text-secundary-color:#ffffff;
+}
+
 *{
     padding: 0px;
     margin: 0px;
