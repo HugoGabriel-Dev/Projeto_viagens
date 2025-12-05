@@ -11,36 +11,40 @@ header {
   margin-top: 24px;
 }
 
-.logo {
+.desktop-img {
+  display: none;
+}
+
+.mobile-img {
   display: inline-block;
   width: 68px;
   height: 64px;
 }
 
 input[type="checkbox"]:checked + nav {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    background-color: var(--background-tertiary-color);
-    padding-bottom: 16px;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: var(--background-tertiary-color);
+  padding-bottom: 16px;
 }
 
-.nav-links{
- list-style: none;
+.nav-links {
+  list-style: none;
 }
 
-.nav-links li a{
-    color: var(--background-secundary-color);
-    text-decoration: none;
-    font-size: 16px;
+.nav-links li a {
+  color: var(--background-secundary-color);
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.nav-links li{
-    margin-top: 16px;
-    font-weight: var(--menu-text-weight);
+.nav-links li {
+  margin-top: 16px;
+  font-weight: var(--menu-text-weight);
 }
 
 nav {
@@ -49,28 +53,46 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-    .navegation-menu label{
-        display: none;
-    }
+  .navegation-menu label {
+    display: none;
+  }
 
-    .navegation-menu nav{
-        display: block;
-    }
+  .navegation-menu nav {
+    display: block;
+  }
 
-    .navegation-menu{
-        width: 467px;
-    }
+  .navegation-menu {
+    width: 467px;
+  }
 
-    .nav-links{
-        display: flex;
-        justify-content: space-around;
-    }
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .nav-links li a{
-        font-size: 20px; 
-    }
+  .nav-links li a {
+    font-size: 20px;
+  }
 
-    .nav-links li{
-        margin-top: 0;
-    }
+  .nav-links li {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-img {
+    display: none;
+  }
+
+  .desktop-img {
+    display: block;
+  }
+
+  header {
+    padding: 38px 120px;
+  }
+
+  .nav-links li a:hover {
+    color: var(--secundary-color);
+  }
 }
