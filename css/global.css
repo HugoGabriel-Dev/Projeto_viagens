@@ -26,5 +26,22 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-    font-family: "montserrat";
+  font-family: "montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.section-title hr{
+  width: 180px;
+  height: 4px;
+  margin: 16px auto 32px;
+  background-color: var(--primary-color);
+  border: none;
 }
