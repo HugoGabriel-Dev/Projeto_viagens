@@ -1,0 +1,29 @@
+.categories-package {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin-bottom: 24px;
+}
+
+.package {
+  background-color: var(--background-secundary-color);
+  text-align: center;
+  flex-flow: column nowrap;
+  width: 312px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.package a img {
+  display: block;
+  margin: auto;
+  height: 80px;
+}
+
+.package h3{
+font-size: 28px;
+font-weight: var(--title-weight);
+margin-top: 24px;
+}
