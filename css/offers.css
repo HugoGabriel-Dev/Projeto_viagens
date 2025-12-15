@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
+  gap: 24px;
 }
 
 .cards {
@@ -14,7 +15,6 @@
   box-sizing: border-box;
   border-radius: 16px;
   text-align: center;
-  margin-bottom: 24px;
 }
 
 .cards header {
@@ -39,6 +39,7 @@
   display: inline-block;
   margin: 24px 0 24px 0;
   font-size: 32px;
+  font-size: var(--title-weight);
 }
 
 .cards footer {
@@ -82,4 +83,59 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 24px;
+  }
+
+  .cards {
+    width: 326px;
+  }
+
+  .cards footer {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards footer:hover {
+    background-color: var(--secundary-color);
+    cursor: pointer;
+  }
+  .cards {
+    width: 475px;
+    height: 308px;
+  }
+
+  .cards footer {
+    margin: auto;
+  }
+
+  .cards span {
+    font-size: 40px;
+  }
+
+  .cards h3 {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .offers-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 24px;
+  }
+
+  .cards {
+    width: 650px;
+    height: 308px;
+  }
 }
