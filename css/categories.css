@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
-    margin-bottom: 24px;
+    gap: 24px;
 }
 
 .package {
   background-color: var(--background-secundary-color);
   text-align: center;
   flex-flow: column nowrap;
-  width: 312px;
+  width: 327px;
   height: 220px;
   display: flex;
   justify-content: center;
@@ -26,4 +26,24 @@
 font-size: 28px;
 font-weight: var(--title-weight);
 margin-top: 24px;
+}
+
+@media screen and (min-width: 768px){
+  .categories-package{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px){
+  .package{
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .package{
+
+width: 280px;
+  }
 }
