@@ -17,13 +17,6 @@
   text-align: center;
 }
 
-.cards header {
-  display: block;
-  position: static;
-  background-color: transparent;
-  padding: 0;
-}
-
 .cards p {
   font-size: 20px;
   font-weight: var(--text-weight);

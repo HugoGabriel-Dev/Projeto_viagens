@@ -29,12 +29,16 @@
   font-family: "montserrat";
 }
 
+section {
+  margin: 0 auto 88px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
-  padding: 88px 24px 0;
+  padding: 0 24px 0;
 }
 
 .section-title hr {
@@ -45,8 +49,25 @@
   border: none;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  width: 280px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.button a {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  text-decoration: none;
+  color: var(--text-secundary-color);
+}
+
 @media screen and (min-width: 1024px) {
   .section-title h2 {
-    padding: 104px 24px 0;
+    padding: 0 24px 0;
   }
 }

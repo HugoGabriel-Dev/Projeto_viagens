@@ -1,8 +1,8 @@
 .categories-package {
-    display: flex;
-    align-items: center;
-    flex-flow: column nowrap;
-    gap: 24px;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 24px;
 }
 
 .package {
@@ -22,28 +22,27 @@
   height: 80px;
 }
 
-.package h3{
-font-size: 28px;
-font-weight: var(--title-weight);
-margin-top: 24px;
+.package h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-top: 24px;
 }
 
-@media screen and (min-width: 768px){
-  .categories-package{
+@media screen and (min-width: 768px) {
+  .categories-package {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
 }
-@media screen and (min-width: 1024px){
-  .package{
+@media screen and (min-width: 1024px) {
+  .package {
     width: 480px;
   }
 }
 
-@media screen and (min-width: 1440px){
-  .package{
-
-width: 280px;
+@media screen and (min-width: 1440px) {
+  .package {
+    width: 280px;
   }
 }

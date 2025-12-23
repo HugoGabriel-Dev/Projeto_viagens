@@ -1,9 +1,6 @@
-.destinations .section-title h2{
-    font-size: 32px;
-    padding: 88px 30px 0;
-}
-.categories .section-title h2{
-    font-size: 32px;
+.destinations {
+  width: 312px;
+  margin: auto;
 }
 
 .populares-destinations {
@@ -13,59 +10,72 @@
   gap: 40px;
 }
 
-header .img-popular {
-  width: 312px;
+.destinations .item .img-item {
+  width: 100%;
   height: 360px;
-  background-image: url(../img-destinations/Tokyo-mobile.jpg);
-  background-position: center center;
+}
+
+.destinations .item.tokyo .img-item {
+  background: url(../img-destinations/Tokyo-mobile.jpg);
   background-size: cover;
-  margin-bottom: 24px;
+}
+.destinations .item.osaka .img-item {
+  background: url(../img-destinations/Osaka-mobile.jpg);
+  background-size: cover;
 }
 
-.item header {
-  display: block;
-  position: static;
-  background-color: transparent;
-  padding: 0;
+.destinations .item header h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0;
 }
 
-.item {
-  width: 312px;
-  height: 754px;
-  color: var(--text-primary-color);
-}
-
-.item p {
+.destinations .item p {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
   margin-bottom: 24px;
 }
 
-.item h4 {
-  margin-bottom: 24px;
-  font-size: 28px;
-  font-weight: var(--title-weight);
+.destinations .button {
+  width: 100%;
 }
 
-.item footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  width: 312px;
-  height: 64px;
-  border-radius: 8px;
-  margin: auto;
+@media screen and (min-width: 768px) {
+  .destinations {
+    width: 648px;
+  }
+  .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+  .destinations .item.tokyo .img-item {
+    background: url(../img-destinations/Tokyo-desktop.jpg);
+    background-size: cover;
+  }
+  .destinations .item.osaka .img-item {
+    background: url(../img-destinations/Osaka-desktop.jpg);
+    background-size: cover;
+  }
+  .destinations .button {
+    width: 280px;
+  }
 }
-
-.item footer a {
-  font-size: 20px;
-  font-weight: var(--title-weight);
-  text-decoration: none;
-  color: var(--text-secundary-color);
+@media screen and (min-width: 1024px) {
+  .destinations {
+    width: 900px;
+  }
+  .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
 }
-
-header .img-popular-two{
-    background-image: url(../img-destinations/Osaka-mobile.jpg);
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
+  }
+  .populares-destinations {
+    display: flex;
+    flex-direction: row;
+  }
 }
