@@ -87,11 +87,6 @@ nav {
   .desktop-img {
     display: block;
   }
-
-  header {
-    padding: 38px 120px;
-  }
-
   .nav-links li a:hover {
     color: var(--secundary-color);
   }
