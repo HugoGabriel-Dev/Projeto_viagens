@@ -36,12 +36,14 @@ section {
 .title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin-bottom: 24px;
 }
 
 .text {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
+  color: var(--text-primary-color);
 }
 
 .section-title h2 {
