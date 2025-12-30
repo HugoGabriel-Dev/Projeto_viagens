@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+}
+
+.img-fundo {
+  height: 400px;
+  background-image: url(../img-testimonials/footer-img.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-fundo {
+  background-color: black;
+  height: 348px;
+}
