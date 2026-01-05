@@ -1,15 +1,49 @@
 .footer {
   width: 100%;
+  margin: 0px;
 }
 
 .img-fundo {
   height: 400px;
   background-image: url(../img-testimonials/footer-img.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: center right;
+}
+
+.content-fundo {
+  background-color: black;
+  height: 348px;
+  display: flex;
+  justify-content: center;
 }
 
 .text-fundo {
-  background-color: black;
-  height: 348px;
+  color: var(--background-secundary-color);
+  width: 312px;
+  text-align: center;
+  margin: 32px 0 32px;
+}
+
+.informations-fundo header img {
+  display: block;
+  width: 162px;
+  margin: 0 auto 16px;
+}
+
+main {
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.sociais-fundo {
+  margin-top: 32px;
+}
+
+.sociais-fundo header {
+  margin-bottom: 16px;
+}
+
+.icons-sociais-fundo span i {
+  font-size: 28px;
+  margin-left: 8px;
 }
