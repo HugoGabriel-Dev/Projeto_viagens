@@ -5,19 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Site de agência de viagens, encontre os melhores preços que cabem no seu bolso."
+      content="Pagina de pacotes de viagens, encontre os melhores preços e pacotes que cabem no seu bolso."
     />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <title>Pacote de viagens</title>
 
-    <title>Projeto - Agência de viagens</title>
+    <link rel="stylesheet" href="css/style-pacote-viagem.css" />
   </head>
   <body>
     <header class="main-header">
@@ -51,10 +44,13 @@
         <nav>
           <ul class="nav-links">
             <li>
-              <a href="blog.html" target="_blank" title="acessar blog">Blog</a>
+              <a href="index.html" title="acessar blog">Blog</a>
             </li>
             <li>
-              <a href="pacotes-viagens.html" title="acessar pacotes de viagens"
+              <a
+                href="pacote.html"
+                target="_blank"
+                title="acessar pacotes de viagens"
                 >Pacote viagens</a
               >
             </li>
@@ -68,104 +64,22 @@
       </div>
     </header>
     <section class="hero">
-      <div class="hero-image"></div>
-      <h2>
-        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
-        à seleção das atividades, cuidamos de todos os detalhes para que você
-        aproveite ao máximo cada momento da sua jornada!
-      </h2>
-    </section>
-    <section class="offers">
-      <div class="section-title">
-        <h2>Ofertas da Semana</h2>
-        <hr />
-      </div>
-      <div class="offers-card">
-        <article class="cards card-one">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Japão <br />
-              <span>R$4000</span>
-            </h3>
-          </header>
-          <footer><a href="#">Ver detalhes</a></footer>
-        </article>
-        <article class="cards card-two">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              San Andreas <br />
-              <span>R$3000</span>
-            </h3>
-          </header>
-          <footer><a href="#">Ver detalhes</a></footer>
-        </article>
-        <article class="cards card-three">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Paraíba <br />
-              <span>R$1200</span>
-            </h3>
-          </header>
-          <footer><a href="#">Ver detalhes</a></footer>
-        </article>
-        <article class="cards card-four">
-          <header>
-            <p>HOTEL+AÉREO</p>
-            <h3>
-              Manaus <br />
-              <span>R$1600</span>
-            </h3>
-          </header>
-          <footer><a href="#">Ver detalhes</a></footer>
-        </article>
-      </div>
-    </section>
-    <section class="categories">
-      <div class="section-title">
-        <h2>Busque por Categoria</h2>
-        <hr />
-      </div>
-      <div class="categories-package">
-        <article class="package">
-          <a href="#"
-            ><img
-              src="img-categories/icon-one.png"
-              alt="icone de area de categorias, boneco caminhando"
-          /></a>
-          <h3>Pacotes Nacionais</h3>
-        </article>
-        <article class="package">
-          <a href="#"
-            ><img
-              src="img-categories/icon-two.png"
-              alt="icone de area de categorias, aviao"
-          /></a>
-          <h3>Pacotes Internacionais</h3>
-        </article>
-        <article class="package">
-          <a href="#"
-            ><img
-              src="img-categories/icon-three.png"
-              alt="icone de area de categorias, carro"
-          /></a>
-          <h3>Transfer</h3>
-        </article>
-        <article class="package">
-          <a href="#"
-            ><img
-              src="img-categories/icon-four.png"
-              alt="icone de area de categorias, planeta"
-          /></a>
-          <h3>Seguro Viagem</h3>
-        </article>
+      <div class="hero-image">
+        <div class="introducao-pacotes">
+          <h1 class="title">Conheça o Japão!</h1>
+          <div class="section-title">
+            <hr class="hr-hero" />
+          </div>
+          <p class="text">
+            A Jornada possui o pacote perfeito para seu estilo e orçamento!
+            Conheça as belas paisagens e a cultura milenar deste belo país!
+          </p>
+        </div>
       </div>
     </section>
     <section class="destinations">
       <div class="section-title">
-        <h2>Destinos Populares</h2>
+        <h2>Destinos da Excursão</h2>
         <hr />
       </div>
       <div class="populares-destinations">
@@ -211,16 +125,24 @@
     </section>
     <section class="payments">
       <div class="section-title">
-        <h2>Condições de Pagamento</h2>
+        <h2>Pagamento</h2>
         <hr />
       </div>
       <div class="content-container">
         <div class="text-content">
-          <h3 class="title">Parcelamento em até 12x!</h3>
-          <p class="text">
+          <h3 class="title">Em até 12x!</h3>
+          <p class="text text-pay">
             Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
             5% de desconto ou no Pix com 10% de desconto!
           </p>
+          <footer class="button footer-payments">
+            <a
+              href="#"
+              target="_blank"
+              title="ver mais detalhes do destino de tokyo"
+              >Ver detalhes
+            </a>
+          </footer>
         </div>
         <div class="image-content">
           <div class="bag"></div>
@@ -237,7 +159,7 @@
       <div class="content-articles">
         <article class="content-testimonials">
           <header class="text-content">
-            <p class="text">
+            <p class="text-pay">
               A Jornada foi uma das melhores agências de viagens que eu já
               experimentei. O serviço ao cliente foi excepcional, e toda a
               equipe foi muito atenciosa e prestativa.
@@ -264,7 +186,7 @@
         </article>
         <article class="content-testimonials">
           <header class="text-content">
-            <p class="text">
+            <p class="text-pay">
               Recomendo fortemente a agência de viagens Jornada. Eles oferecem
               um serviço personalizado e de alta qualidade que excedeu minhas
               expectativas em minha última viagem.
@@ -291,7 +213,7 @@
         </article>
         <article class="content-testimonials">
           <header class="text-content">
-            <p class="text">
+            <p class="text-pay">
               Minha viagem com a Jornada foi incrível! Recomendo muito a agência
               para quem busca uma experiência emocionante e personalizada.
             </p>
