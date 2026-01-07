@@ -1,0 +1,83 @@
+.payments {
+  width: 312px;
+}
+.text-content {
+  margin-bottom: 24px;
+}
+.text-pay {
+  color: var(--text-primary-color);
+}
+.footer-payments {
+  margin: 24px 0 24px;
+}
+.image-content {
+  display: grid;
+  grid-template-columns: 144px 144px;
+  grid-template-rows: 254px 182px;
+  gap: 24px;
+}
+.colspan2 {
+  grid-column: span 2;
+}
+.image-content .bag {
+  background-image: url(../img/Montagem\ japão\ 1.png);
+  background-size: cover;
+}
+.image-content .passport {
+  background-image: url(../img/Montagem\ japão\ 2.png);
+  background-size: cover;
+}
+.image-content .person {
+  background-image: url(../img/Montagem\ japão\ 3.png);
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: 648px;
+  }
+  .footer-payments {
+    display: none;
+  }
+  .image-content {
+    display: grid;
+    grid-template-columns: 312px 312px;
+    grid-template-rows: 254px 182px;
+    gap: 24px;
+  }
+  .image-content .bag {
+    background-image: url(../img/Montagem\ japão\ 1.png);
+    background-size: cover;
+  }
+  .image-content .passport {
+    background-image: url(../img/Montagem\ japão\ 2.png);
+    background-size: cover;
+  }
+  .image-content .person {
+    background-image: url(../img/Montagem\ japão\ 3.png);
+    background-size: cover;
+    
+  }
+}
+@media screen and (min-width: 1440px) {
+  .payments {
+    width: 1200px;
+  }
+  .footer-payments {
+    display: none;
+  }
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-content {
+    width: 384px;
+  }
+  .image-content {
+    width: 790px;
+    display: grid;
+    grid-template-columns: 384px 384px;
+    grid-template-rows: 254px 182px;
+    gap: 24px;
+  }
+}
